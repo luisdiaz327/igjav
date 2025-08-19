@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IG Codes</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description"
+    content="best free viral videos" />
+    <meta name="keywords"
+      content="viral videos, hindi sex, porn, sex video" />
+</head>
+
+<body>
+
+  <div class="app-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <!-- Inside your sidebar div -->
+        <button id="closeSidebar" class="sidebar-close">&times;</button>
+        <br>
+        <h1>JavSuperCode</h1>
+      </div>
+
+      <div class="sidebar-content">
+        <!-- Stats Section -->
+        <div class="sidebar-section">
+          <h3>📊 My Stats</h3>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span class="stat-label">Total</span>
+              <span class="stat-value" id="totalCount">0</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Watching</span>
+              <span class="stat-value" id="watchingCount">0</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Completed</span>
+              <span class="stat-value" id="completedCount">0</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Plan to Watch</span>
+              <span class="stat-value" id="planCount">0</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Dropped</span>
+              <span class="stat-value" id="droppedCount">0</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filters Section -->
+        <div class="sidebar-section">
+          <h3>🔍 Filters</h3>
+          <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Search post...">
+          </div>
+
+          <div class="filter-group">
+            <h4>Status</h4>
+            <div class="filter-buttons">
+              <button id="showAll" class="filter-btn active">All</button>
+              <button id="showWatching" class="filter-btn">Watching</button>
+              <button id="showCompleted" class="filter-btn">Completed</button>
+              <button id="showPlanToWatch" class="filter-btn">Plan to Watch</button>
+              <button id="showDropped" class="filter-btn">Dropped</button>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <h4>Options</h4>
+            <button id="toggleSaved" class="option-btn">Show Saved Only</button>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="content-header">
+        <button id="sidebarToggle" class="sidebar-toggle">☰</button>
+        <div class="breadcrumb">
+          <span id="currentFilter">All Post</span>
+          <span id="resultCount"></span>
+        </div>
+      </div>
+
+      <div class="card-container" id="anime-list"></div>
+      <div class="pagination" id="pagination"></div>
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
